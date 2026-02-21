@@ -1,0 +1,3 @@
+[INFO] VanceOS Visual Demonstration
+[TYPE] SILENT_TEST
+[DATA] CLS; CYAN; PRINT "--- ЗАПУСК ВИЗУАЛЬНОЙ ДЕМОНСТРАЦИИ VANCEOS ---"; WAIT 1; GREEN; PRINT "1. СИСТЕМНЫЕ ДАННЫЕ:"; USER; OS_VER; CPU; IP; TIME; DATE; WAIT 2; YELLOW; PRINT "2. ТЕСТ ЛОГИКИ И ПЕРЕМЕННЫХ:"; VAR user_name=MatveyDeveloper; VAR status=Active; PRINT "Пользователь: $user_name"; PRINT "Статус системы: $status"; WAIT 1.5; BLUE; PRINT "3. УПРАВЛЕНИЕ WINDOWS:"; PRINT "Открываю Блокнот и твой профиль..."; RUN_NOTE; MY_GITHUB; WAIT 2; WHITE; PRINT "--- ТЕСТ ЗАВЕРШЕН ---"; PAUSE; CLS
